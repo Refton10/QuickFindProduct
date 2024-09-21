@@ -1,0 +1,99 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #f0f0f0; */
+    background-color:  rgb(102, 155, 188);
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  .NavDiv .navclass{
+    background-color: rgb(193, 18, 31);
+    width: 100%;
+    height: 50px;
+}
+
+.heading1{
+  display: inline;
+  padding: auto;
+  margin: auto;
+  width: auto;
+  color: black;
+}
+
+.enterCode{
+    background-color: rgb(253, 240, 213);
+    display: flexbox;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    border: solid;
+    border-radius: 17px;
+    height: 300px;
+    margin: 5px;
+}
+
+.dox2{
+    display: flex;
+    /* border: green,solid; */
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.form{
+    justify-content: center;
+    align-content: center;
+    width: 550px;
+}
+
+label{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+input{
+    font-size: 18px;
+}
+
+.btnSubmit{
+    width: 90px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 13px;
+    border: none;
+    cursor: pointer;
+}
+
+.box2{
+    background-color: rgb(253, 240, 213);
+    display: flexbox;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    border: solid;
+    border-radius: 17px;
+    height: 200px;
+    margin: 5px;
+}
+
+.Display{
+    display: flex;
+    /* border: green,solid; */
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.displayText{
+    font-weight: bold;
+}
