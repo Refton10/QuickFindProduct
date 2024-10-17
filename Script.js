@@ -152,6 +152,7 @@ function findDepartment(Value)
             if (Number(data[Category][subCategory]) === Value)
             {
                 console.log(Category +" - "+subCategory);
+                document.getElementById("textDisplay").textContent = "";
                 document.getElementById("textDisplay").textContent += Category +" - "+subCategory + "\n";
                 // return;
             }
